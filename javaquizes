@@ -1,0 +1,55 @@
+1.1 What is a requirements document?
+The requirements document of a software development project is a precise specification of what the
+software should do.
+
+1.2 What is the difference between the design stage and the implementation stage in the development of software?
+In the development of software, the design stage identifies the components (classes) to be used and the
+relationships among them. The implementation stage is where the computer progam code is actually
+written.
+1.3 What is the difference between the state and the behavior of a class?
+The state of a class consists of the values of its fields. The behavior of a class is defined by its methods
+1.4 What is an abstract data type?
+An abstract data type is a specification of the type’s operations: what an instance of that type can do.
+1.5 What constitutes a Java program?
+A Java program is a Java class with a main() method? The main() method must have this header:
+public static void main(String[] args)
+1.6 What kinds of members can a class have?
+A class member may be a field, a constructor, a method, a nested class, a nested interface, or an enum
+type.
+1.7 What is an implicit argument?
+The implicit argument of a method is the object to which the method invocation is bound
+1.8 What is the purpose of the toString() method?
+The toString() method returns a String object that represents the state of its implicit argument
+1.9 What is the purpose of the equals() method?
+The equals() method returns true if and only if states (contents) of its implicit and explicit arguments
+are the same.
+1.10 What's the difference among public, protected, and private?
+A class member that is declared public is accessible from any other class. A class member that is
+declared protected is accessible only from its own class and subclasses (extensions). A class member that is declared private is accessible only from it
+1.11 What is a package?
+A package is a namespace, that is, a name for a group of classes, interfaces, and enum types that can be
+used to distinguish those from other classes, interfaces, and enum types with the same name.
+1.12 What is the difference between an abstract class and an abstract data type?
+An abstract class is a Java class with at least one abstract method—a method that has no body. An
+abstract data type is a specification of a type’s operations that could be implemented in any object-oriented programming language.
+1.13 What is the difference between a constructor and a method?
+1.14 What is the difference between a class method and an instance method?
+A class method is declared static and is invoked using the class name. For example,
+double y = Math.abs(x);
+invokes the class method abs() that is defined in the Math class. An instance method is declared without the static modifier and is invoked using the name of the object to which i
+double x = random.nextDouble();
+invokes the class method nextDouble() that is defined in the Random class and is bound to the object
+random which is an instance of that class.
+1.15 What is the difference between equality of objects and equality of the references that refer to
+them?
+1.16 Explain the difference between the output from
+String s;
+System.out.println("s = " + s);
+and the output from
+String s = new String();
+System.out.println("s = " + s);
+1.17 What is the purpose of declaring a field private and declaring a mutator method that allows
+the public to change it. Wouldn’t it be just as good to just make it public?
+1.18 What is an enum type?
+1.19 What is the difference between composition and aggregation?
+1.20 What is polymorphism?
